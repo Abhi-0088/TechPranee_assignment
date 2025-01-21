@@ -19,15 +19,15 @@ The application includes a basic web interface for interaction.
 
 ## Project Structure
 
-project/ 
-│ 
-├── main.py # FastAPI application 
-├── templates/ 
-│           ├── base.html # Base HTML template 
-│           ├── index.html # Homepage for interaction 
-│           ├── result.html # Results display page 
-├── uploads/ # Directory to store uploaded files 
-└── README.md # Project documentation
+project/   
+│   
+├── main.py # FastAPI application   
+├── templates/   
+│           ├── base.html # Base HTML template   
+│           ├── index.html # Homepage for interaction   
+│           ├── result.html # Results display page   
+├── uploads/ # Directory to store uploaded files   
+└── README.md # Project documentation  
 
 
 ## Requirements
@@ -39,7 +39,7 @@ Ensure you have the following installed:
 ---
 
 ## Setup Instructions
-git clone https://github.com/Abhi-0088/TechPranee_assignment.git
-pip install fastapi uvicorn pandas numpy scikit-learn jinja2
-python main.py
-http://127.0.0.1:5000
+git clone https://github.com/Abhi-0088/TechPranee_assignment.git  
+pip install fastapi uvicorn pandas numpy scikit-learn jinja2  
+python main.py  
+http://127.0.0.1:5000  
