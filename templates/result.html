@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Prediction Results</h2>
+<p><strong>Logistic Regression:</strong></p>
+<p>Downtime: {{ results.Logistic_Regression.Downtime }}</p>
+<p>Confidence: {{ results.Logistic_Regression.Confidence }}</p>
+
+<p><strong>Decision Tree:</strong></p>
+<p>Downtime: {{ results.Decision_Tree.Downtime }}</p>
+<p>Confidence: {{ results.Decision_Tree.Confidence }}</p>
+
+<a href="/">Back to Home</a>
+{% endblock %}
